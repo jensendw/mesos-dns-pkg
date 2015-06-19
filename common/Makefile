@@ -70,7 +70,7 @@ package: copy-mesos-dns
 
 .PHONY: get-mesos-dns
 get-mesos-dns:
-	go get github.com/mesosphere/mesos-dns
+	go get git@github.com:jensendw/mesos-dns.git
 
 .PHONY: copy-mesos-dns
 copy-mesos-dns: mesos-dns
